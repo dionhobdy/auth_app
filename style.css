@@ -1,0 +1,91 @@
+body {
+    background-color: #2D3E4E;
+    margin: auto;
+}
+
+::selection {
+    background: #8CBDB9;
+}
+
+::-moz-selection {
+    background: #8CBDB9;
+}
+
+input {
+    background-color: #E8ECEB;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #c8c8c9;
+    border-left: none;
+    height: 5vh;
+    width: 25vw;
+    padding: 40px 20px 40px 20px;
+    outline: none;
+
+    margin-top: 50px;
+
+    font-family: 'Jura', sans-serif;
+    font-size: 2.25vw;
+    opacity: .75;
+}
+
+a {
+    color: #8CBDB9;
+    font-size: 1.25vw;
+
+}
+
+a:hover {
+    color: #8CBDB9;
+    text-decoration: none;
+}
+
+
+@media (min-width: 576px) {
+    .rectangle {
+        height: 70vh;
+        width: 50vw;
+        border-radius: 25px;
+        background-color: #E8ECEB;
+        
+        position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        margin: auto;
+    }
+
+    .rectangle:hover {
+        box-shadow: 5px 5px 10px 1px #182029;
+        transition: box-shadow 0.4s ease-in-out;
+    }
+
+    .formHead {
+        color: #1b1b1b;
+        font-size: 4vw;
+        font-family: 'Jura', sans-serif;
+        opacity: .85;
+    }
+
+    .logo {
+        width: 6vw;
+        margin-top: 75px;
+        opacity: .80;
+    }
+    
+    .login {
+        border-radius: 25px;
+        height: 5vh;
+        width: 20vw;
+        background-color: #2D3E4E;
+        margin-top: 75px;
+    }
+
+    .loginFont {
+        color: #E8ECEB;
+        font-family: 'Jura', sans-serif;
+        font-size: 30px;
+    }
+
+    .placer {
+        margin-top: -50px;
+    }
+}

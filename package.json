@@ -1,0 +1,14 @@
+{
+  "name": "auth-app",
+  "version": "1.0.0",
+  "description": "simple authentication application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dion Hobdy",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}
